@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		041644C624C69F34007F6A38 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041644C524C69F34007F6A38 /* ScanViewController.swift */; };
+		041644C824C6A6D3007F6A38 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041644C724C6A6D3007F6A38 /* ListTableViewCell.swift */; };
+		041644CA24C6BEBA007F6A38 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041644C924C6BEBA007F6A38 /* Utility.swift */; };
 		04AD725524C69DC2006A7F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD725424C69DC2006A7F4A /* AppDelegate.swift */; };
 		04AD725724C69DC2006A7F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD725624C69DC2006A7F4A /* ViewController.swift */; };
 		04AD725A24C69DC2006A7F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD725824C69DC2006A7F4A /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		041644C524C69F34007F6A38 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		041644C724C6A6D3007F6A38 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		041644C924C6BEBA007F6A38 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		04AD725124C69DC2006A7F4A /* AEROPRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEROPRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD725424C69DC2006A7F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AD725624C69DC2006A7F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				04AD725424C69DC2006A7F4A /* AppDelegate.swift */,
 				04AD725624C69DC2006A7F4A /* ViewController.swift */,
 				041644C524C69F34007F6A38 /* ScanViewController.swift */,
+				041644C724C6A6D3007F6A38 /* ListTableViewCell.swift */,
+				041644C924C6BEBA007F6A38 /* Utility.swift */,
 				04AD725824C69DC2006A7F4A /* Main.storyboard */,
 				04AD725B24C69DC6006A7F4A /* Assets.xcassets */,
 				04AD725D24C69DC6006A7F4A /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041644CA24C6BEBA007F6A38 /* Utility.swift in Sources */,
 				04AD725724C69DC2006A7F4A /* ViewController.swift in Sources */,
+				041644C824C6A6D3007F6A38 /* ListTableViewCell.swift in Sources */,
 				04AD725524C69DC2006A7F4A /* AppDelegate.swift in Sources */,
 				041644C624C69F34007F6A38 /* ScanViewController.swift in Sources */,
 			);
@@ -293,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AEROPRO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acceleratingyoungminds.promo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AEROPRO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acceleratingyoungminds.promo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
