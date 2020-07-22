@@ -21,7 +21,7 @@
 		041644C524C69F34007F6A38 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		041644C724C6A6D3007F6A38 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		041644C924C6BEBA007F6A38 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		04AD725124C69DC2006A7F4A /* AEROPRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEROPRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AD725124C69DC2006A7F4A /* AERO-PRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AERO-PRO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD725424C69DC2006A7F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AD725624C69DC2006A7F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04AD725924C69DC2006A7F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		04AD725224C69DC2006A7F4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04AD725124C69DC2006A7F4A /* AEROPRO.app */,
+				04AD725124C69DC2006A7F4A /* AERO-PRO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			);
 			name = AEROPRO;
 			productName = AEROPRO;
-			productReference = 04AD725124C69DC2006A7F4A /* AEROPRO.app */;
+			productReference = 04AD725124C69DC2006A7F4A /* AERO-PRO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,15 +294,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9D2SLFLY8F;
 				INFOPLIST_FILE = AEROPRO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.acceleratingyoungminds.promo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AERO-PRO";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,15 +315,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9D2SLFLY8F;
 				INFOPLIST_FILE = AEROPRO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.acceleratingyoungminds.promo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AERO-PRO";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
