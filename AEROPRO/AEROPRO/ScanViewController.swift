@@ -3,7 +3,7 @@
 //  AEROPRO
 //
 //  Created by Smart Eye on 7/19/20.
-//  Copyright © 2020 smarteye. All rights reserved.
+//  Copyright © 2020 live:yaolei.guru. All rights reserved.
 //
 
 import AVFoundation
@@ -110,6 +110,7 @@ class ScanViewController: UIViewController,  AVCaptureMetadataOutputObjectsDeleg
 //            if code == url! {
 //                bFalg = false
 //            }
+//
 //        }
         
         if bFalg {
